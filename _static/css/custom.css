@@ -1,0 +1,59 @@
+/**  @todo check media width!!  **/
+
+:root {
+    --color-white: #e6e6e6;
+    --titlebar: #da8a37;
+    --content-box: #505050;
+    --background: #404040;
+
+}
+
+
+body, input {
+    color: var(--color-white);
+}
+
+
+[data-md-color-primary=orange] .md-header, [data-md-color-primary=orange] .md-hero {
+    background-color: var(--titlebar);
+}
+
+main.md-main,
+nav.md-nav,
+div.md-sidebar
+{
+    background-color: var(--background);
+}
+
+
+.md-typeset h1 {
+    background-color: var(--content-box);
+    border-radius: 9px 9px 0 9px;
+    margin: 8px;
+    padding: 8px;
+    color: var(--color-white);
+}
+
+span.highlighted {
+    background-color: var(--titlebar);
+    padding: 0 8px;
+    border-radius: 9px 9px 0 9px;
+    color: rgb(0 0 0 / 87%);
+}
+
+img.help-tip {
+    border: 1px dashed rgba(0, 0, 0, 0.5);
+    border-radius: 9px 9px 0 9px;
+    padding: 14px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+section.tr3-section {
+    background-color: var(--content-box);
+    border-radius: 9px 9px 0 9px;
+    margin: 8px;
+    padding: 8px;
+}
