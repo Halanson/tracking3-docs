@@ -65,7 +65,7 @@ html_theme_options = {
     'html_minify': True,
     'css_minify': True,
     'repo_name': 'tracking3.io - Docs',
-    'repo_url': 'https://github.com/Halanson/tracking3-app',
+    'repo_url': 'https://github.com/Tracking3/tracking3-docs',
     'repo_type': 'github',
 }
 
