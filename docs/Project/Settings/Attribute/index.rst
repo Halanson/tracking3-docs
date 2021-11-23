@@ -8,11 +8,6 @@ Attribute
    :maxdepth: 2
 
 
-.. cssclass:: tr3-section
-
-----------
-Definition
-----------
 An **Attribute** is a property of an :doc:`/docs/Project/Settings/AssetDefinition/index` or in other words, if an :doc:`/docs/Project/Settings/AssetDefinition/index` is a table then an **Attribute** would be one column of that table.
 
 .. image:: ./attribute.png
@@ -21,15 +16,11 @@ An **Attribute** is a property of an :doc:`/docs/Project/Settings/AssetDefinitio
 The same :doc:`/docs/Project/Settings/AssetDefinition/index` can be used in many data grids, for example an :doc:`/docs/Project/Settings/AssetDefinition/index` 'Shot' can be used in multiple sequences to display many shots. They all have the same definition, but are different **Assets**.
 
 
-.. cssclass:: tr3-section
-
 -----
 Label
 -----
 This is the label of your **Attribute** or column.
 
-
-.. cssclass:: tr3-section
 
 ----
 Type
@@ -37,7 +28,13 @@ Type
 There are many different types of **Attributes**, each for a different use case.
 
 
-.. cssclass:: tr3-section
+Asset Name
+==========
+This type shows the name or label of an row or asset. The colored bar shows the current state of other **Attributes** of type `State`_ in this data grid.
+
+.. image:: ./type_assetName.png
+    :class: help-tip
+
 
 Duration
 ========
@@ -48,18 +45,6 @@ As you can see in the example below the last shot has a source footage starting 
     :class: help-tip
 
 
-.. cssclass:: tr3-section
-
-Name
-====
-This type shows the name or label of an row or item. The colored bar shows the current state of other **Attributes** of type `State`_ in this data grid.
-
-.. image:: ./type_assetName.png
-    :class: help-tip
-
-
-.. cssclass:: tr3-section
-
 Parent Asset
 ============
 
@@ -67,16 +52,12 @@ Parent Asset
     :class: help-tip
 
 
-.. cssclass:: tr3-section
-
 Parent Asset Source
 -------------------
 Here you can define dependencies between **Asset Definitions**. For example an :doc:`/docs/Project/Settings/AssetDefinition/index` 'Shot' belongs to an :doc:`/docs/Project/Settings/AssetDefinition/index` 'Sequence'. Using the **Type Parent Asset** you can achieve this.
 
 In the example you can see a data grid for the :doc:`/docs/Project/Settings/AssetDefinition/index` 'Shot' with an **Attribute** called 'Sequence'. This **Attribute** 'Sequence' is of the type of **Parent Asset** and pointing to the **Main Attribute** of an :doc:`/docs/Project/Settings/AssetDefinition/index` called 'Sequence'.
 
-
-.. cssclass:: tr3-section
 
 State
 =====
@@ -86,8 +67,6 @@ With this type you can show the different states of a single process in producti
     :class: help-tip
 
 
-.. cssclass:: tr3-section
-
 Text
 ====
 This is useful for some general notes or descriptions.
@@ -96,15 +75,11 @@ This is useful for some general notes or descriptions.
     :class: help-tip
 
 
-.. cssclass:: tr3-section
-
 -----
 Width
 -----
 Is the width of an **Attribute** column it has by default in a data grid.
 
-
-.. cssclass:: tr3-section
 
 ------
 Pinned

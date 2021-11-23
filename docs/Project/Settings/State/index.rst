@@ -8,19 +8,11 @@ State
    :maxdepth: 2
 
 
-.. cssclass:: tr3-section
-
-----------
-Definition
-----------
-
 A State reflects the different steps of a process.
 
 .. image:: ./state.png
     :class: help-tip
 
-
-.. cssclass:: tr3-section
 
 ----------
 Label
@@ -29,16 +21,12 @@ Label
 This is the label of your State or process step.
 
 
-.. cssclass:: tr3-section
-
 ----------
 Text Color
 ----------
 
 Text colors is used to enhance the readability for darker background colors with a lighter text color.
 
-
-.. cssclass:: tr3-section
 
 ----------------
 Background Color

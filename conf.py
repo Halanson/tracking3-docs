@@ -17,7 +17,7 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'tracking3-docs'
+project = 'Tracking3'
 copyright = '2021, tracking3.io'
 author = 'Martin Melzer'
 
@@ -67,6 +67,7 @@ html_theme_options = {
     'repo_name': 'tracking3.io - Docs',
     'repo_url': 'https://github.com/Tracking3/tracking3-docs',
     'repo_type': 'github',
+    'google_analytics_account': 'UA-164760584-1'
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,

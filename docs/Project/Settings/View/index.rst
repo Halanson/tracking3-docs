@@ -8,22 +8,14 @@ View
    :maxdepth: 2
 
 
-.. cssclass:: tr3-section
-
-----------
-Definition
-----------
 With **Views** you can structure your project and create data grids to show it's content like your assets and their progress. It depends on you and your project how you order and name views. You can also create a hierarchy like folder structure of views. It is totally up to you.
 
-.. cssclass:: tr3-section
 
 ----------
 Label
 ----------
 This is the label of your View.
 
-
-.. cssclass:: tr3-section
 
 ----------
 Type
@@ -33,15 +25,11 @@ This is how a **View** behaves. Currently we support two different behaviors:
 - A **Folder** has no special abilities. But it will help you to structure your projects.
 
 
-.. cssclass:: tr3-section
-
 ----------
 Icon
 ----------
 This is a visual representation and does not change the behavior of a **View**. A good practice is to use an icon that represents the content of a **View** as close as possible.
 
-
-.. cssclass:: tr3-section
 
 ----------------------------
 Filtered by Asset Definition
@@ -54,8 +42,6 @@ For example, if you want to manage characters in your project, first create a co
     :class: help-tip
 
 
-.. cssclass:: tr3-section
-
 --------------------
 Ordered by Attribute
 --------------------
@@ -63,8 +49,6 @@ In the most cases you would like to order a data grid by something, for example 
 
 This field can be left empty.
 
-
-.. cssclass:: tr3-section
 
 ---------------------
 Filtered By Attribute
@@ -80,8 +64,6 @@ Lets assume you want to create a new view for multiple shots of a sequence. You 
 For more information have a look in the Filtered by Value section.
 
 
-.. cssclass:: tr3-section
-
 -----------------
 Filtered by Value
 -----------------
@@ -95,8 +77,6 @@ For example, if you would like to create a view of shots of a sequence, you have
 
 You need to create the values you want to filter by before you can select them in this list!
 
-
-.. cssclass:: tr3-section
 
 --------------------------------------
 Is collapsed if this View has children

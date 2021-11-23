@@ -1,8 +1,6 @@
-/**  @todo check media width!!  **/
-
 :root {
     --color-white: #e6e6e6;
-    --titlebar: #da8a37;
+    --titlebar: #e5a550;
     --content-box: #505050;
     --background: #404040;
 
@@ -13,21 +11,52 @@ body, input {
     color: var(--color-white);
 }
 
+[data-md-color-primary=orange] .md-typeset a {
+    color: var(--titlebar);
+    text-decoration: none;
+    position: relative;
+}
 
-[data-md-color-primary=orange] .md-header, [data-md-color-primary=orange] .md-hero {
+[data-md-color-primary=orange] .md-typeset a:before {
+    content: "";
+    position: absolute;
+    width: 50%;
+    transform: translate(-50%, 0);
+    height: 2px;
+    bottom: 0;
+    left: 50%;
     background-color: var(--titlebar);
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.15s ease-in-out;
+}
+
+[data-md-color-primary=orange] .md-typeset a:hover:before {
+    visibility: visible;
+    opacity: 1;
+    width: 100%;
+}
+
+[data-md-color-primary=orange] .md-header {
+    background-color: var(--titlebar);
+    color: black;
+}
+
+@media only screen and (max-width: 59.9375em) {
+    [data-md-color-primary=orange] .md-nav__source {
+        background-color: var(--titlebar);
+    }
 }
 
 main.md-main,
-nav.md-nav,
-div.md-sidebar
-{
+div[data-md-component="toc"] nav.md-nav,
+div.md-sidebar {
     background-color: var(--background);
 }
 
 
 .md-typeset h1 {
-    background-color: var(--content-box);
+    /*background-color: var(--content-box);*/
     border-radius: 9px 9px 0 9px;
     margin: 8px;
     padding: 8px;
@@ -51,9 +80,70 @@ img.help-tip {
 }
 
 
-section.tr3-section {
-    background-color: var(--content-box);
+article section section,
+#content-overview .toctree-wrapper {
+    /*background-color: var(--content-box);*/
     border-radius: 9px 9px 0 9px;
     margin: 8px;
     padding: 8px;
+}
+
+.md-search__scrollwrap {
+    background-color: var(--background);
+}
+
+.md-search__input {
+    background-color: var(--background);
+}
+
+
+[data-md-color-accent=red] .md-nav__link:focus,
+[data-md-color-accent=red] .md-nav__link:hover,
+[data-md-color-accent=red] .md-nav__extra_link:focus,
+[data-md-color-accent=red] .md-nav__extra_link:hover,
+[data-md-color-accent=red] .md-typeset a:active,
+[data-md-color-accent=red] .md-typeset a:hover,
+[data-md-color-accent=red] .md-typeset .footnote li:hover .footnote-backref:hover,
+[data-md-color-accent=red] .md-typeset .footnote li:target .footnote-backref,
+[data-md-color-accent=red] .md-typeset .md-clipboard:active:before,
+[data-md-color-accent=red] .md-typeset .md-clipboard:hover:before,
+[data-md-color-accent=red] .md-typeset [id] .headerlink:focus,
+[data-md-color-accent=red] .md-typeset [id]:hover .headerlink:hover,
+[data-md-color-accent=red] .md-typeset [id]:target .headerlink {
+    color: var(--titlebar);
+}
+
+
+@media only screen and (max-width: 76.1875em) {
+    html .md-nav--primary .md-nav__title ~ .md-nav__list {
+        background-color: var(--background);
+    }
+
+    html [data-md-color-primary=orange] .md-nav--primary .md-nav__title--site {
+        background-color: var(--titlebar);
+        color: black;
+    }
+
+    div[data-md-component="navigation"] nav.md-nav {
+        background-color: var(--titlebar);
+    }
+
+    .md-nav--primary .md-nav__extra_link {
+        padding: 0.6rem 0.8rem;
+    }
+
+    .md-nav__source,
+    html .md-nav--primary .md-nav__title {
+        color: black;
+    }
+}
+
+
+@media only screen and (min-width: 60em) {
+    .md-search__input,
+    .md-search__input:hover {
+        background-color: var(--background);
+        color: var(--color-white);
+        border-radius: 9px 9px 0 9px;
+    }
 }
