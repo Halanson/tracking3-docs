@@ -45,7 +45,7 @@ Create a Project
 
 In the `app <https://app.tracking3.io/>`_ go to **Create > Project** and follow the given instructions. You can invite up to two other people to join your project immediately for free. If you like to add more users, you need to create an organisation and subscribe for more user licences.
 
-You can choose a project template for an easier start with already some basic project structure and settings in place. Of course, you adjust all of these settings to your need afterwards.
+You can choose a project template for an easier start with already some basic project structure and settings in place. Of course, you can adjust all of these settings to your need afterwards.
 
 Once done, you have a new folder in the left navigation bar with the name of your project. That is the place you will find all settings, users, assets, files and any other kind of information of your project.
 
