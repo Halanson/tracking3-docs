@@ -67,7 +67,7 @@ html_theme_options = {
     'repo_name': 'tracking3.io - Docs',
     'repo_url': 'https://github.com/Tracking3/tracking3-docs',
     'repo_type': 'github',
-    'google_analytics_account': 'G-6XQPCXW501'
+#     'google_analytics_account': 'G-6XQPCXW501',
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
