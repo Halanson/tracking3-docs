@@ -3,9 +3,7 @@ Content Overview
 ================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
-   /docs/Project/Settings/AssetDefinition/index
-   /docs/Project/Settings/Attribute/index
-   /docs/Project/Settings/State/index
-   /docs/Project/Settings/View/index
+   /docs/Project/Contributions/index
+   /docs/Project/Settings/index

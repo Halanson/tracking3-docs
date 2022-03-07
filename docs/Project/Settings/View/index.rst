@@ -21,6 +21,7 @@ This is the label of your View.
 Type
 ----------
 This is how a **View** behaves. Currently we support two different behaviors:
+
 - A **Data Grid** is like a table. This is the right way to go in the most cases.
 - A **Folder** has no special abilities. But it will help you to structure your projects.
 

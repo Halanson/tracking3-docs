@@ -8,7 +8,7 @@ Asset Definition
    :maxdepth: 2
 
 
-An **Asset Definition** can be seen as a kind of a table. It has columns, we name them **Attributes** and **Assets** are the rows of that table.
+An **Asset Definition** can be seen as a kind of a table. It has columns, we name them :doc:`Attributes</docs/Project/Settings/Attribute/index>` and **Assets** are the rows of that table.
 
 .. image:: ./asset_definition.png
     :class: help-tip
